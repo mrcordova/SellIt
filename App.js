@@ -14,7 +14,8 @@ import WelcomeScreen from "./app/screens/WelcomeScreen";
 import AppButton from "./app/components/AppButton";
 import Card from "./app/components/Card";
 import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
+import MessageScreen from "./app/screens/MessageScreen";
 
 export default function App() {
-  return <ViewImageScreen></ViewImageScreen>;
+  return <MessageScreen />;
 }
