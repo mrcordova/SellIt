@@ -1,26 +1,8 @@
 // import { StatusBar } from 'expo-status-bar';
-import React from "react";
-import { ImageBackground, StyleSheet, View, Image, Text } from "react-native";
-import AppText from "./app/components/AppText";
-
-import { MaterialCommunityIcons } from "@expo/vector-icons";
-import {
-  useDimensions,
-  useDeviceOrientation,
-} from "@react-native-community/hooks";
-import ViewImageScreen from "./app/screens/ViewImageScreen";
-import LoginBtn from "./app/components/LoginBtn";
-import WelcomeScreen from "./app/screens/WelcomeScreen";
-import AppButton from "./app/components/AppButton";
-import Card from "./app/components/Card";
-import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
-import MessageScreen from "./app/screens/MessageScreen";
-import Screen from "./app/components/Screen";
-import Icon from "./app/components/Icon";
-import ListItem from "./app/components/ListItem";
-import AccountScreen from "./app/screens/AccountScreen";
-import ListingsScreen from "./app/screens/ListingsScreen";
+import React, { useState } from "react";
+import ListingEditScreen from "./app/screens/ListingEditScreen";
+import LoginScreen from "./app/screens/LoginScreen";
 
 export default function App() {
-  return <ListingsScreen />;
+  return <ListingEditScreen />;
 }
