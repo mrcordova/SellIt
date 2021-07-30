@@ -1,12 +1,13 @@
 // import { StatusBar } from 'expo-status-bar';
-import React, { useState } from "react";
-import AccountScreen from "./app/screens/AccountScreen";
+import React, { useEffect, useState } from "react";
+import * as ImagePicker from "expo-image-picker";
+import Screen from "./app/components/Screen";
 import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
+import { Button, Image, StatusBar } from "react-native";
+import ImageInput from "./app/components/ImageInput";
+import ImageInputList from "./app/components/ImageInputList";
 import ListingEditScreen from "./app/screens/ListingEditScreen";
-import LoginScreen from "./app/screens/LoginScreen";
-import ListingsScreen from "./app/screens/ListingsScreen";
-import MessageScreen from "./app/screens/MessageScreen";
 
 export default function App() {
-  return <ListingEditScreen />;
+  return <ListingEditScreen></ListingEditScreen>;
 }
